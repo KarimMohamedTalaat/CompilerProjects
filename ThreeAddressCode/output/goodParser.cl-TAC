@@ -1,0 +1,56 @@
+pal:
+BeginFun 
+PushParams s
+Call length
+PopParams 0
+t1 = length = 0
+ifFalse t1 goto BEFORE3
+goto AFTER3
+BEFORE3: 
+Call length
+PopParams 0
+t2 = length = 1
+ifFalse t2 goto BEFORE2
+goto AFTER2
+BEFORE2: 
+PushParams 0
+PushParams 1
+Call substr
+PopParams 8
+PushParams t3
+PushParams 1
+Call substr
+PopParams 8
+t4 = substr = substr
+ifFalse t4 goto BEFORE1
+PushParams substr
+Call pal
+PopParams 4
+goto AFTER1
+BEFORE1: 
+AFTER1: 
+AFTER2: 
+AFTER3: 
+EndFun 
+i = unintialized
+main:
+BeginFun 
+i = unintialized
+PushParams "enter a string\n"
+Call out_string
+PopParams 4
+PushParams in_string
+Call pal
+PopParams 4
+ifFalse pal goto BEFORE4
+PushParams "It's palindrome\n"
+Call out_string
+PopParams 4
+goto AFTER4
+BEFORE4: 
+PushParams "It isn't a palindrome\n"
+Call out_string
+PopParams 4
+AFTER4: 
+t6 = unintialized
+EndFun 

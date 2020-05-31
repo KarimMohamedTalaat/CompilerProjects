@@ -1,0 +1,31 @@
+s = "hi cool developers"
+g:
+BeginFun 
+PushParams y
+PushParams s
+Call concat
+PopParams 4
+EndFun 
+f:
+BeginFun 
+PushParams x
+t1 = x * 50
+EndFun 
+a = unintialized
+b = unintialized
+f:
+BeginFun 
+PushParams x
+t2 = x + a
+EndFun 
+f:
+BeginFun 
+PushParams x
+t3 = x + a
+EndFun 
+main:
+BeginFun 
+PushParams 5
+Call f
+PopParams 4
+EndFun 

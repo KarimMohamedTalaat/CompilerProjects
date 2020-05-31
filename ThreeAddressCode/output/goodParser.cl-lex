@@ -1,0 +1,642 @@
+Line : 1
+Type : CLASS
+Value : class
+Line : 1
+Type : TYPEID
+Value : Main
+Line : 1
+Type : LBRACE
+Value : {
+Line : 2
+Type : OBJECTID
+Value : pal
+Line : 2
+Type : LPAREN
+Value : (
+Line : 2
+Type : OBJECTID
+Value : s
+Line : 2
+Type : COLON
+Value : :
+Line : 2
+Type : TYPEID
+Value : String
+Line : 2
+Type : RPAREN
+Value : )
+Line : 2
+Type : COLON
+Value : :
+Line : 2
+Type : TYPEID
+Value : Bool
+Line : 2
+Type : LBRACE
+Value : {
+Line : 3
+Type : IF
+Value : if
+Line : 3
+Type : OBJECTID
+Value : s
+Line : 3
+Type : DOT
+Value : .
+Line : 3
+Type : OBJECTID
+Value : length
+Line : 3
+Type : LPAREN
+Value : (
+Line : 3
+Type : RPAREN
+Value : )
+Line : 3
+Type : EQUALS
+Value : =
+Line : 3
+Type : INT_CONST
+Value : 0
+Line : 4
+Type : THEN
+Value : then
+Line : 4
+Type : BOOL_CONST
+Value : true
+Line : 5
+Type : ELSE
+Value : else
+Line : 5
+Type : IF
+Value : if
+Line : 5
+Type : OBJECTID
+Value : s
+Line : 5
+Type : DOT
+Value : .
+Line : 5
+Type : OBJECTID
+Value : length
+Line : 5
+Type : LPAREN
+Value : (
+Line : 5
+Type : RPAREN
+Value : )
+Line : 5
+Type : EQUALS
+Value : =
+Line : 5
+Type : INT_CONST
+Value : 1
+Line : 6
+Type : THEN
+Value : then
+Line : 6
+Type : BOOL_CONST
+Value : true
+Line : 7
+Type : ELSE
+Value : else
+Line : 7
+Type : IF
+Value : if
+Line : 7
+Type : OBJECTID
+Value : s
+Line : 7
+Type : DOT
+Value : .
+Line : 7
+Type : OBJECTID
+Value : substr
+Line : 7
+Type : LPAREN
+Value : (
+Line : 7
+Type : INT_CONST
+Value : 0
+Line : 7
+Type : COMMA
+Value : ,
+Line : 7
+Type : INT_CONST
+Value : 1
+Line : 7
+Type : RPAREN
+Value : )
+Line : 7
+Type : EQUALS
+Value : =
+Line : 7
+Type : OBJECTID
+Value : s
+Line : 7
+Type : DOT
+Value : .
+Line : 7
+Type : OBJECTID
+Value : substr
+Line : 7
+Type : LPAREN
+Value : (
+Line : 7
+Type : OBJECTID
+Value : s
+Line : 7
+Type : DOT
+Value : .
+Line : 7
+Type : OBJECTID
+Value : length
+Line : 7
+Type : LPAREN
+Value : (
+Line : 7
+Type : RPAREN
+Value : )
+Line : 7
+Type : MINUS
+Value : -
+Line : 7
+Type : INT_CONST
+Value : 1
+Line : 7
+Type : COMMA
+Value : ,
+Line : 7
+Type : INT_CONST
+Value : 1
+Line : 7
+Type : RPAREN
+Value : )
+Line : 8
+Type : THEN
+Value : then
+Line : 8
+Type : OBJECTID
+Value : pal
+Line : 8
+Type : LPAREN
+Value : (
+Line : 8
+Type : OBJECTID
+Value : s
+Line : 8
+Type : DOT
+Value : .
+Line : 8
+Type : OBJECTID
+Value : substr
+Line : 8
+Type : LPAREN
+Value : (
+Line : 8
+Type : INT_CONST
+Value : 1
+Line : 8
+Type : COMMA
+Value : ,
+Line : 8
+Type : OBJECTID
+Value : s
+Line : 8
+Type : DOT
+Value : .
+Line : 8
+Type : OBJECTID
+Value : length
+Line : 8
+Type : LPAREN
+Value : (
+Line : 8
+Type : RPAREN
+Value : )
+Line : 8
+Type : MINUS
+Value : -
+Line : 8
+Type : INT_CONST
+Value : 3
+Line : 8
+Type : RPAREN
+Value : )
+Line : 8
+Type : RPAREN
+Value : )
+Line : 9
+Type : ELSE
+Value : else
+Line : 9
+Type : BOOL_CONST
+Value : false
+Line : 10
+Type : FI
+Value : fi
+Line : 10
+Type : FI
+Value : fi
+Line : 10
+Type : FI
+Value : fi
+Line : 11
+Type : RBRACE
+Value : }
+Line : 11
+Type : SEMICOLON
+Value : ;
+Line : 13
+Type : OBJECTID
+Value : i
+Line : 13
+Type : COLON
+Value : :
+Line : 13
+Type : TYPEID
+Value : Int
+Line : 13
+Type : SEMICOLON
+Value : ;
+Line : 15
+Type : OBJECTID
+Value : main
+Line : 15
+Type : LPAREN
+Value : (
+Line : 15
+Type : RPAREN
+Value : )
+Line : 15
+Type : COLON
+Value : :
+Line : 15
+Type : TYPEID
+Value : SELF_TYPE
+Line : 15
+Type : LBRACE
+Value : {
+Line : 16
+Type : LBRACE
+Value : {
+Line : 17
+Type : OBJECTID
+Value : i
+Line : 17
+Type : ASSIGN
+Value : <-
+Line : 17
+Type : TILDE
+Value : ~
+Line : 17
+Type : INT_CONST
+Value : 1
+Line : 17
+Type : SEMICOLON
+Value : ;
+Line : 18
+Type : OBJECTID
+Value : out_string
+Line : 18
+Type : LPAREN
+Value : (
+Line : 18
+Type : STR_CONST
+Value : "enter a string\n"
+Line : 18
+Type : RPAREN
+Value : )
+Line : 18
+Type : SEMICOLON
+Value : ;
+Line : 19
+Type : IF
+Value : if
+Line : 19
+Type : OBJECTID
+Value : pal
+Line : 19
+Type : LPAREN
+Value : (
+Line : 19
+Type : OBJECTID
+Value : in_string
+Line : 19
+Type : LPAREN
+Value : (
+Line : 19
+Type : RPAREN
+Value : )
+Line : 19
+Type : RPAREN
+Value : )
+Line : 20
+Type : THEN
+Value : then
+Line : 20
+Type : OBJECTID
+Value : out_string
+Line : 20
+Type : LPAREN
+Value : (
+Line : 20
+Type : STR_CONST
+Value : "It's palindrome\n"
+Line : 20
+Type : RPAREN
+Value : )
+Line : 21
+Type : ELSE
+Value : else
+Line : 21
+Type : OBJECTID
+Value : out_string
+Line : 21
+Type : LPAREN
+Value : (
+Line : 21
+Type : STR_CONST
+Value : "It isn't a palindrome\n"
+Line : 21
+Type : RPAREN
+Value : )
+Line : 22
+Type : FI
+Value : fi
+Line : 22
+Type : SEMICOLON
+Value : ;
+Line : 23
+Type : RBRACE
+Value : }
+Line : 24
+Type : RBRACE
+Value : }
+Line : 24
+Type : SEMICOLON
+Value : ;
+Line : 25
+Type : RBRACE
+Value : }
+Line : 25
+Type : SEMICOLON
+Value : ;
+Line : 26
+Type : EOF
+Value : <EOF>
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "null"
+    (
+    #2
+    _method
+      pal
+      #2
+      _formal
+        s
+        String
+      Bool
+      #3
+      _cond
+        #3
+        _eq
+          #3
+          _dispatch
+            #3
+            _object
+              s
+            : _no_type
+            length
+            (
+            )
+          : _no_type
+          #3
+          _int
+            0
+          : _no_type
+        : _no_type
+        #4
+        _bool
+          1
+        : _no_type
+        #5
+        _cond
+          #5
+          _eq
+            #5
+            _dispatch
+              #5
+              _object
+                s
+              : _no_type
+              length
+              (
+              )
+            : _no_type
+            #5
+            _int
+              1
+            : _no_type
+          : _no_type
+          #6
+          _bool
+            1
+          : _no_type
+          #7
+          _cond
+            #7
+            _eq
+              #7
+              _dispatch
+                #7
+                _object
+                  s
+                : _no_type
+                substr
+                (
+                #7
+                _int
+                  0
+                : _no_type
+                #7
+                _int
+                  1
+                : _no_type
+                )
+              : _no_type
+              #7
+              _dispatch
+                #7
+                _object
+                  s
+                : _no_type
+                substr
+                (
+                #7
+                _sub
+                  #7
+                  _dispatch
+                    #7
+                    _object
+                      s
+                    : _no_type
+                    length
+                    (
+                    )
+                  : _no_type
+                  #7
+                  _int
+                    1
+                  : _no_type
+                : _no_type
+                #7
+                _int
+                  1
+                : _no_type
+                )
+              : _no_type
+            : _no_type
+            #8
+            _dispatch
+              #8
+              _object
+                self
+              : _no_type
+              pal
+              (
+              #8
+              _dispatch
+                #8
+                _object
+                  s
+                : _no_type
+                substr
+                (
+                #8
+                _int
+                  1
+                : _no_type
+                #8
+                _sub
+                  #8
+                  _dispatch
+                    #8
+                    _object
+                      s
+                    : _no_type
+                    length
+                    (
+                    )
+                  : _no_type
+                  #8
+                  _int
+                    3
+                  : _no_type
+                : _no_type
+                )
+              : _no_type
+              )
+            : _no_type
+            #9
+            _bool
+              0
+            : _no_type
+          : _no_type
+        : _no_type
+      : _no_type
+    #13
+    _attr
+      i
+      Int
+      #13
+      _no_expr
+      : _no_type
+    #15
+    _method
+      main
+      SELF_TYPE
+      #16
+      _block
+        #17
+        _assign
+          i
+          #17
+          _comp
+            #17
+            _int
+              1
+            : _no_type
+          : _no_type
+        : _no_type
+        #18
+        _dispatch
+          #18
+          _object
+            self
+          : _no_type
+          out_string
+          (
+          #18
+          _string
+            ""enter a string\n""
+          : _no_type
+          )
+        : _no_type
+        #19
+        _cond
+          #19
+          _dispatch
+            #19
+            _object
+              self
+            : _no_type
+            pal
+            (
+            #19
+            _dispatch
+              #19
+              _object
+                self
+              : _no_type
+              in_string
+              (
+              )
+            : _no_type
+            )
+          : _no_type
+          #20
+          _dispatch
+            #20
+            _object
+              self
+            : _no_type
+            out_string
+            (
+            #20
+            _string
+              ""It's palindrome\n""
+            : _no_type
+            )
+          : _no_type
+          #21
+          _dispatch
+            #21
+            _object
+              self
+            : _no_type
+            out_string
+            (
+            #21
+            _string
+              ""It isn't a palindrome\n""
+            : _no_type
+            )
+          : _no_type
+        : _no_type
+      : _no_type
+    )

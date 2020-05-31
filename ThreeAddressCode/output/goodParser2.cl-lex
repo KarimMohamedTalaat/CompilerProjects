@@ -1,0 +1,455 @@
+Line : 1
+Type : CLASS
+Value : class
+Line : 1
+Type : TYPEID
+Value : B
+Line : 1
+Type : LBRACE
+Value : {
+Line : 2
+Type : OBJECTID
+Value : s
+Line : 2
+Type : COLON
+Value : :
+Line : 2
+Type : TYPEID
+Value : String
+Line : 2
+Type : ASSIGN
+Value : <-
+Line : 2
+Type : STR_CONST
+Value : "hi cool developers"
+Line : 2
+Type : SEMICOLON
+Value : ;
+Line : 3
+Type : OBJECTID
+Value : g
+Line : 3
+Type : LPAREN
+Value : (
+Line : 3
+Type : OBJECTID
+Value : y
+Line : 3
+Type : COLON
+Value : :
+Line : 3
+Type : TYPEID
+Value : String
+Line : 3
+Type : RPAREN
+Value : )
+Line : 3
+Type : COLON
+Value : :
+Line : 3
+Type : TYPEID
+Value : Int
+Line : 3
+Type : LBRACE
+Value : {
+Line : 4
+Type : OBJECTID
+Value : y
+Line : 4
+Type : DOT
+Value : .
+Line : 4
+Type : OBJECTID
+Value : concat
+Line : 4
+Type : LPAREN
+Value : (
+Line : 4
+Type : OBJECTID
+Value : s
+Line : 4
+Type : RPAREN
+Value : )
+Line : 5
+Type : RBRACE
+Value : }
+Line : 5
+Type : SEMICOLON
+Value : ;
+Line : 6
+Type : OBJECTID
+Value : f
+Line : 6
+Type : LPAREN
+Value : (
+Line : 6
+Type : OBJECTID
+Value : x
+Line : 6
+Type : COLON
+Value : :
+Line : 6
+Type : TYPEID
+Value : Int
+Line : 6
+Type : RPAREN
+Value : )
+Line : 6
+Type : COLON
+Value : :
+Line : 6
+Type : TYPEID
+Value : Int
+Line : 6
+Type : LBRACE
+Value : {
+Line : 7
+Type : OBJECTID
+Value : x
+Line : 7
+Type : STAR
+Value : *
+Line : 7
+Type : INT_CONST
+Value : 50
+Line : 8
+Type : RBRACE
+Value : }
+Line : 8
+Type : SEMICOLON
+Value : ;
+Line : 9
+Type : RBRACE
+Value : }
+Line : 9
+Type : SEMICOLON
+Value : ;
+Line : 11
+Type : CLASS
+Value : class
+Line : 11
+Type : TYPEID
+Value : A
+Line : 11
+Type : LBRACE
+Value : {
+Line : 12
+Type : OBJECTID
+Value : a
+Line : 12
+Type : COLON
+Value : :
+Line : 12
+Type : TYPEID
+Value : Int
+Line : 12
+Type : SEMICOLON
+Value : ;
+Line : 13
+Type : OBJECTID
+Value : b
+Line : 13
+Type : COLON
+Value : :
+Line : 13
+Type : TYPEID
+Value : B
+Line : 13
+Type : ASSIGN
+Value : <-
+Line : 13
+Type : NEW
+Value : new
+Line : 13
+Type : TYPEID
+Value : B
+Line : 13
+Type : SEMICOLON
+Value : ;
+Line : 14
+Type : OBJECTID
+Value : f
+Line : 14
+Type : LPAREN
+Value : (
+Line : 14
+Type : OBJECTID
+Value : x
+Line : 14
+Type : COLON
+Value : :
+Line : 14
+Type : TYPEID
+Value : Int
+Line : 14
+Type : RPAREN
+Value : )
+Line : 14
+Type : COLON
+Value : :
+Line : 14
+Type : TYPEID
+Value : Int
+Line : 14
+Type : LBRACE
+Value : {
+Line : 15
+Type : OBJECTID
+Value : x
+Line : 15
+Type : PLUS
+Value : +
+Line : 15
+Type : OBJECTID
+Value : a
+Line : 16
+Type : RBRACE
+Value : }
+Line : 16
+Type : SEMICOLON
+Value : ;
+Line : 17
+Type : RBRACE
+Value : }
+Line : 17
+Type : SEMICOLON
+Value : ;
+Line : 18
+Type : CLASS
+Value : class
+Line : 18
+Type : TYPEID
+Value : Main
+Line : 18
+Type : LBRACE
+Value : {
+Line : 20
+Type : OBJECTID
+Value : f
+Line : 20
+Type : LPAREN
+Value : (
+Line : 20
+Type : OBJECTID
+Value : x
+Line : 20
+Type : COLON
+Value : :
+Line : 20
+Type : TYPEID
+Value : Int
+Line : 20
+Type : RPAREN
+Value : )
+Line : 20
+Type : COLON
+Value : :
+Line : 20
+Type : TYPEID
+Value : Int
+Line : 20
+Type : LBRACE
+Value : {
+Line : 21
+Type : OBJECTID
+Value : x
+Line : 21
+Type : PLUS
+Value : +
+Line : 21
+Type : OBJECTID
+Value : a
+Line : 22
+Type : RBRACE
+Value : }
+Line : 22
+Type : SEMICOLON
+Value : ;
+Line : 24
+Type : OBJECTID
+Value : main
+Line : 24
+Type : LPAREN
+Value : (
+Line : 24
+Type : RPAREN
+Value : )
+Line : 24
+Type : COLON
+Value : :
+Line : 24
+Type : TYPEID
+Value : Object
+Line : 24
+Type : LBRACE
+Value : {
+Line : 26
+Type : OBJECTID
+Value : f
+Line : 26
+Type : LPAREN
+Value : (
+Line : 26
+Type : INT_CONST
+Value : 5
+Line : 26
+Type : RPAREN
+Value : )
+Line : 29
+Type : RBRACE
+Value : }
+Line : 29
+Type : SEMICOLON
+Value : ;
+Line : 30
+Type : RBRACE
+Value : }
+Line : 30
+Type : SEMICOLON
+Value : ;
+Line : 30
+Type : EOF
+Value : <EOF>
+#1
+_program
+  #1
+  _class
+    B
+    Object
+    "null"
+    (
+    #2
+    _attr
+      s
+      String
+      #2
+      _string
+        ""hi cool developers""
+      : _no_type
+    #3
+    _method
+      g
+      #3
+      _formal
+        y
+        String
+      Int
+      #4
+      _dispatch
+        #4
+        _object
+          y
+        : _no_type
+        concat
+        (
+        #4
+        _object
+          s
+        : _no_type
+        )
+      : _no_type
+    #6
+    _method
+      f
+      #6
+      _formal
+        x
+        Int
+      Int
+      #7
+      _mul
+        #7
+        _object
+          x
+        : _no_type
+        #7
+        _int
+          50
+        : _no_type
+      : _no_type
+    )
+  #11
+  _class
+    A
+    Object
+    "null"
+    (
+    #12
+    _attr
+      a
+      Int
+      #12
+      _no_expr
+      : _no_type
+    #13
+    _attr
+      b
+      B
+      #13
+      _new
+        B
+      : _no_type
+    #14
+    _method
+      f
+      #14
+      _formal
+        x
+        Int
+      Int
+      #15
+      _plus
+        #15
+        _object
+          x
+        : _no_type
+        #15
+        _object
+          a
+        : _no_type
+      : _no_type
+    )
+  #18
+  _class
+    Main
+    Object
+    "null"
+    (
+    #20
+    _method
+      f
+      #20
+      _formal
+        x
+        Int
+      Int
+      #21
+      _plus
+        #21
+        _object
+          x
+        : _no_type
+        #21
+        _object
+          a
+        : _no_type
+      : _no_type
+    #24
+    _method
+      main
+      Object
+      #26
+      _dispatch
+        #26
+        _object
+          self
+        : _no_type
+        f
+        (
+        #26
+        _int
+          5
+        : _no_type
+        )
+      : _no_type
+    )

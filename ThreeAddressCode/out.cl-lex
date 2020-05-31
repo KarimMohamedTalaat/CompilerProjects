@@ -1,0 +1,103 @@
+#1 CLASS
+#1 TYPEID B
+#1 '{'
+#2 OBJECTID s
+#2 ':'
+#2 TYPEID String
+#2 ASSIGN
+#2 STR_CONST ""Hello""
+#2 ';'
+#3 OBJECTID g
+#3 '('
+#3 OBJECTID y
+#3 ':'
+#3 TYPEID String
+#3 ')'
+#3 ':'
+#3 TYPEID Int
+#3 '{'
+#4 OBJECTID y
+#4 '.'
+#4 OBJECTID concat
+#4 '('
+#4 OBJECTID s
+#4 ')'
+#5 '}'
+#5 ';'
+#6 OBJECTID f
+#6 '('
+#6 OBJECTID x
+#6 ':'
+#6 TYPEID Int
+#6 ')'
+#6 ':'
+#6 TYPEID Int
+#6 '{'
+#7 OBJECTID x
+#7 '*'
+#7 INT_CONST 2
+#8 '}'
+#8 ';'
+#9 '}'
+#9 ';'
+#11 CLASS
+#11 TYPEID A
+#11 '{'
+#12 OBJECTID a
+#12 ':'
+#12 TYPEID Int
+#12 ';'
+#13 OBJECTID b
+#13 ':'
+#13 TYPEID B
+#13 ASSIGN
+#13 NEW
+#13 TYPEID B
+#13 ';'
+#14 OBJECTID f
+#14 '('
+#14 OBJECTID x
+#14 ':'
+#14 TYPEID Int
+#14 ')'
+#14 ':'
+#14 TYPEID Int
+#14 '{'
+#15 OBJECTID x
+#15 '+'
+#15 OBJECTID a
+#16 '}'
+#16 ';'
+#17 '}'
+#17 ';'
+#18 CLASS
+#18 TYPEID Main
+#18 '{'
+#20 OBJECTID f
+#20 '('
+#20 OBJECTID x
+#20 ':'
+#20 TYPEID Int
+#20 ')'
+#20 ':'
+#20 TYPEID Int
+#20 '{'
+#21 OBJECTID x
+#21 '+'
+#21 OBJECTID a
+#22 '}'
+#22 ';'
+#24 OBJECTID main
+#24 '('
+#24 ')'
+#24 ':'
+#24 TYPEID Object
+#24 '{'
+#26 OBJECTID f
+#26 '('
+#26 INT_CONST 9
+#26 ')'
+#29 '}'
+#29 ';'
+#30 '}'
+#30 ';'
